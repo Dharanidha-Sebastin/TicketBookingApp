@@ -1,0 +1,108 @@
+.account-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #a7b3c9;
+}
+
+.accont-main {
+    width: 51%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.account-inner-container {
+    width: 98%;
+    margin: 0 auto;
+}
+.account-head {
+    width: 100%;
+    background-image: url('../busimage/routetable/HEADER_bg.gif');
+    display: flex;
+    justify-content: space-between;
+}
+.account-bg {
+    width: 100%;
+    height: 28px;
+    background-image: url('../busimage/routetable/topBG.gif')
+}
+
+/* form section */
+/* font-size */
+.account-form .star {
+    color: red;
+    padding: 4px 2px 2px 2px;
+    font-size: 14px;
+}
+.account-form .p-normal {
+    font-size: 11px;
+    background-color: #fbeee8;
+    padding: 4px 0;
+}
+.account-form p {
+    font-size: 11px;
+    padding: 8px 0 8px 0;
+}
+.p-flex {
+    display: flex;
+}
+.p-flex div {
+    width: 50%;
+}
+.account-form .p-normal label, .account-form .p-normal input {
+    font-size: 12px;
+}
+.account-form .p-normal label {
+    background-color: #f7b5a4;
+    padding: 4px 0 4px 30px;
+}
+.account-form .p-normal input {
+    margin-left: 4px;
+}
+.account-form b, .account-form strong {
+    font-size: 13px;
+}
+.account-form .strong {
+    padding: 20px 0;
+}
+
+/* accout-form */
+.account-form {
+    width: 100%;
+    padding: 20px 0 40px 0;
+
+}
+.account-form fieldset {
+    border-radius: 20px;
+    padding: 15px;
+    border-color: #7e4233;
+    position: relative;
+}
+.account-form fieldset legend {
+    margin-left: 50px;
+    padding: 2px 40px;
+    background-color: #fbeee8;
+    font-size: 14px;
+    font-weight: bold;
+    border: 3px solid #7e4233;
+    border-radius: 8px;
+
+}
+.account-register, .account-rest, .account-close {
+    position: absolute;
+    background-color: #7e4233;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #7e4233;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+.account-register {
+    left: 30%;
+}
+.account-rest {
+    left: 45%;
+}
+.account-close {
+    right: 35%;
+    font-size: 14px;
+}

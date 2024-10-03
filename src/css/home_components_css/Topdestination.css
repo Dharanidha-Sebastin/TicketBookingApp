@@ -1,0 +1,29 @@
+#topdestination-main-tag {
+  background-image: url("./thiru.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.Topdestination-container {
+    padding: 20px 0;
+}
+#topdestination-header {
+  color: #003399;
+  padding: 4px;
+}
+#topdestination-text-area {
+  text-decoration: none;
+}
+
+#topdestination-text-area ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#topdestination-text-area ul li a:hover {
+    text-decoration: underline;
+    color: rgb(153,0,0);
+}
