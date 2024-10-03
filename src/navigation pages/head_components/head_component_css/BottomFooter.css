@@ -1,0 +1,30 @@
+.bottom-footer-container {
+    width: 100%;
+    order: 4; 
+    background-color: rgb(102, 51, 51);
+    height: 40px;
+}
+.bottom-footer-container .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.bottom-footer-container img {
+    width: auto;
+    height: 40px;
+}
+.bottom-footer-container .ptag {
+    line-height: 40px;
+}
+.bottom-footer-container p, .bottom-footer-container a {
+    font-size: 12px;
+}
+.bottom-footer-container a {
+    color: white;
+    text-decoration: none;
+}
+.bottom-footer-container .row {
+    height: 40px;
+}

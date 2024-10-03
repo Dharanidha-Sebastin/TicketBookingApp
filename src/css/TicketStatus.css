@@ -1,0 +1,93 @@
+.TicketStatus{
+    background-color: #fff !important;
+    padding-bottom: 50px;
+}
+.TicketStatus-language{
+    background-color: #F6F5F5;
+}
+.TicketStatus-language p{
+    margin-left: 1120px;
+}
+.TicketStatus-logo-images{
+    display: flex;
+    justify-content: space-around;
+}
+.TicketStatus-mirror img:hover{
+    transform: rotate(360deg);
+    transition: 1.2s;
+    border-radius: 30px;
+}
+.TicketStatus-bus img:hover{
+    transform: rotate(360deg);
+    transition: 1.2s;
+}
+.TicketStatus-nav{
+    background-color: #990000;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+#TicketStatus-nav-1 ul{
+    display: flex;
+    margin-left: 40px;
+    list-style-type: none;
+}
+#TicketStatus-nav-1 ul li{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#TicketStatus-nav-1 ul li:hover{
+    color: gold;
+}
+#TicketStatus-nav-2 ul{
+    display: flex;
+    margin-left: 75px;
+    list-style-type: none;
+}
+#TicketStatus-nav-2 ul li{
+    color: gold;
+    font-size: 12px;
+    font-weight: bold;
+}
+#TicketStatus-nav-3{
+    display: flex;
+    margin-left: 40px;
+    
+}
+#TicketStatus-nav-3 p{
+    font-weight: bold;
+    color: #fff;
+}
+#TicketStatus-nav-3 p:hover{
+    color: gold;
+}
+#TicketStatus-nav-3 i{
+    background-color: rgba(255, 217, 0, 0.556);
+    padding: 5px;
+    border-radius: 5px;
+}
+.TicketStatus-pnr{
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding-left: 20px;
+    height: 45vh;
+    width: 90%;
+    border-style: solid;
+    border-color: lightgray;
+}
+.TicketStatus-pnr label{
+    background-color: rgba(240, 128, 128, 0.521);
+    padding-left: 250px;
+}
+#submit-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 12px;
+    width: 66px;
+    height: 21px;
+}
+

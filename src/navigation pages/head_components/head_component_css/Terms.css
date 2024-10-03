@@ -1,0 +1,37 @@
+.terms-container {
+    width: 68%;
+    margin-right: 6%;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+}
+.term{
+    background-color: cyan;
+    margin: 5px 0 0 0;
+}
+.terms-container h3 {
+    color: #2683d9;
+    padding: 0 0 4px 8px;
+    border-bottom: 3px dotted #ccc;
+    
+}
+.condition{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+}
+.condition ol {
+    margin-bottom: 8px;
+}
+.condition li {
+    margin-left: 24px;
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 4px;
+    text-align:justify;
+}
+.condition p {
+    font-size: 14px;
+}
+.condition p u{
+    font-size: 14px;
+    color: red;
+}

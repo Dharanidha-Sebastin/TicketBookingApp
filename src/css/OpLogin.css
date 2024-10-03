@@ -1,0 +1,22 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.OpLogin{
+    background-color: maroon;
+    margin-top: 20px;
+    box-shadow: 40px 10px 40px;
+}
+.OpLoginForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 40px 40px 50px;
+    background-color:bisque(201, 197, 172);
+    margin-left: 390px;
+    margin-right:390px;
+}
+

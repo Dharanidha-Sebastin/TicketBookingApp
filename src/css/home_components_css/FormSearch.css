@@ -1,0 +1,49 @@
+
+.form-component {
+    border: 1px solid rgb(153,0,0);
+    /* height: 400px; */
+   
+}
+.form-section {
+    width: 50%;
+}
+.form-component hr {
+    border-top: 1px dotted #ccc;
+    color: #fff;
+}
+.form-table {
+    padding: 5px;
+}
+.form-component h4 {
+    background-color: rgb(153,0,0);
+    color: #fff;
+    padding: 8px 4px;
+}
+.form-component p {
+    padding: 4px;
+}
+.form-component button {
+    background-color: rgb(0,0,153);
+    color: white;       
+    padding: 6px 24px;
+    /* font-size: 14px; */
+    border-radius: 4px;
+
+}
+.form-component label {
+    padding: 4px;
+    /* border: 1px solid red; */
+}
+.btn {
+    text-align: center;
+    padding: 4px;
+}
+.label-time {
+    margin-left: 3rem;
+}
+#male, #female {
+    margin-left: 3rem;
+}
+.form-component input, .form-component select {
+    padding: 4px;
+}

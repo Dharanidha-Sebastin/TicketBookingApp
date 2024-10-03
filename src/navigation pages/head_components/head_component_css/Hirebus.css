@@ -1,0 +1,21 @@
+.hire-container {
+    width: 68%;
+    margin-right: 6%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.top-hire {
+    background-color: cyan;
+    margin: 5px 0;
+}
+.hire-container h3 {
+    color: #2683d9;
+    padding: 8px 16px 16px;
+    border-bottom: 3px dotted #ccc;
+}
+.hire-content {
+    padding: 20px;
+}
+.hire-content p {
+    font-size: 14px;
+}

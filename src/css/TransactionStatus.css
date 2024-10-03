@@ -1,0 +1,109 @@
+.TransactionStatus{
+    background-color: #fff !important;
+    height: 100vh;
+}
+.TransactionStatus-logo-images{
+    /* background-color: #E1E1E2; */
+    display: flex;
+    justify-content: space-around;
+}
+.TransactionStatus-tit{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.TransactionStatus-tit i{
+    margin-left: 190px;
+}
+.TransactionStatus-tit i:hover{
+    color: #fff;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 40px;
+}
+.TransactionStatus-tit p{
+    margin-left: 60px;
+}
+.TransactionStatus-form{
+    background-color: #fff;
+    border: 1px solid lightgray;
+   margin-left: 190px;
+   padding-top: 30px;
+   margin-right: 190px;
+   height: 45vh;
+    
+}
+.TransactionStatus-form hr{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#TransactionStatus-form-1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#TransactionStatus-form-2{
+    background-color: #E1E1E2;
+    padding: 10px;
+    font-weight: lighter;
+    margin-top: 25px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#TransactionStatus-form-3{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#TransactionStatus-form-3 label{
+    margin-left: 20px;
+}
+#TransactionStatus-refund{
+    margin-left: 20px;
+}
+#TransactionStatus-form-4{
+    margin-top: 25px;
+}
+#TransactionStatus-form-4 label{
+    margin-left: 80px;
+}
+
+#TransactionStatus-form-4-input{
+    margin-left: 80px;
+    padding: 6px 0px 6px 12px;
+    width: 324px;
+    height: 31px;
+}
+#TransactionStatus-form-4-submit{
+    width: 95px;
+    height: 40px;
+    padding: 7.5px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+#TransactionStatus-form-4 button{
+    width: 95px;
+    height: 40px;
+    padding: 7.5px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+#TransactionStatus-form-5{
+    margin-top: 20px;
+    color: gray;
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+}

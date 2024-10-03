@@ -1,0 +1,138 @@
+.E-ticket-login-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #a7b3c9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.E-Ticket-Login {
+    margin-top: 20px;
+    width: 70%;
+    background-color: white;
+}
+.e-ticket-container {
+    width: 98%;
+    margin: 0 auto;
+    box-shadow: 0 0 1px black;
+}
+.e-img {
+    width: 100%;
+}
+.e-img img {
+    width: 100%;
+}
+.EticLoginForm {
+    background-color: #7e4233 ;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.EticLoginForm button {
+    padding: 4px 8px;
+    margin-right: 30px;
+}
+.e-ticket-container .row1 {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+}
+.e-ticket-left {
+    width: 49%;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+    padding: 10px 0;
+}
+.e-ticket-left img {
+    /* margin: 20px 0; */
+    width: 96%;
+    margin-left: 1%;
+}
+.e-ticket-right {
+    width: 49%;
+    padding: 10px;
+    border-left: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+}
+.e-ticket-right form h6 {
+    padding: 8px 16px;
+    text-align: end;
+    background-color: #7e4233;
+    margin-top: 20px;
+    color: #fff;
+}
+.e-ticket-right form h6 a {
+    text-decoration: none;
+    color: #fff;
+}
+.e-ticket-right form h6 a:hover {
+    color: yellow;
+}
+.e-ticket-foot {
+    width: 100%;
+    height: 40px;
+    background-color: #7e4233;
+    margin-top: 40px;
+}
+.e-ticket-right form {
+    width: 100%;
+}
+
+.e-ticket-right form fieldset {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 20px;
+    border-color: #7e4233;
+    position: relative;
+}
+.e-ticket-right form fieldset legend {
+    padding: 4px 16px;
+    background-color: #fbeee8;
+    color: #7e4233;
+    font-weight: bold;
+    border: 3px solid #7e4233;
+    border-radius: 8px;
+}
+.e-ticket-right form fieldset #fist-btn {
+    position: absolute;
+    background-color: #7e4233;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #7e4233;
+    border-radius: 8px;
+    bottom: -15px;
+    left: 30%;
+    padding: 4px 8px;
+}
+.e-ticket-right form fieldset #second-btn{
+    position: absolute;
+    background-color: #7e4233;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #7e4233;
+    border-radius: 8px;
+    bottom: -15px;
+    left: 50%;
+    padding: 4px 8px;
+}
+
+.error-div-eticket {
+    height: 20px;
+}
+.error-div-eticket small {
+    color: red;
+}
+.e-ticket-right form fieldset p {
+    padding: 4px;
+}
+.e-ticket-right h4{
+    color: #fff;
+    background-color: #7e4233;
+    text-align: center;
+    margin-bottom: 10px;
+}
